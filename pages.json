@@ -1,0 +1,70 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "中国天气",
+				"navigationBarBackgroundColor": "#59b5e6",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/history/history",
+			"style": {
+				"navigationBarTitleText": "历史上的今天",
+				"navigationBarBackgroundColor": "#de2854",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/calendar/calendar",
+			"style": {
+				"navigationBarTitleText": "老黄历",
+				"navigationBarBackgroundColor": "#ffc107",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/fortune/fortune",
+			"style": {
+				"navigationBarTitleText": "星座运势",
+				"navigationBarBackgroundColor": "#9870e4",
+				"navigationBarTextStyle": "white"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/weather-grey.png",
+			"selectedIconPath": "static/weather.png",
+			"text": "天气"
+		}, {
+			"pagePath": "pages/history/history",
+			"iconPath": "static/history-grey.png",
+			"selectedIconPath": "static/history.png",
+			"text": "历史"
+		}, {
+			"pagePath": "pages/calendar/calendar",
+			"iconPath": "static/calendar-grey.png",
+			"selectedIconPath": "static/calendar.png",
+			"text": "黄历"
+		}
+		// {
+		// 	"pagePath": "pages/fortune/fortune",
+		// 	"iconPath": "static/fortune-grey.png",
+		// 	"selectedIconPath": "static/fortune.png",
+		// 	"text": "星运"
+		// }
+		]
+	}
+}
